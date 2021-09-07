@@ -1,7 +1,7 @@
 # Deedoodle.com
 Website to show my projects, since shutdown due to server costs.
 
-I love space, I thought it would be could to create an animation using JavaScript and a game loop.
+I love space, I thought it would be cool to create an animation using JavaScript and a game loop.
 ![Menu Page](https://i.imgur.com/57t0yXr.gif)
 
 The original purpose of this website was to give people a view of graphics cards that have been "dropping" in stores since there was a large drought.
