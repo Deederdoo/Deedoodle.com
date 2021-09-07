@@ -17,5 +17,6 @@ I also had a little fun building a space game using the same gameloop as the men
 before you get overun. You were able to submit your score at the end.
 ![Space_Game](https://i.imgur.com/t18oRuQ.gif)
 
-The last section of the website was for my porfolio. I show some of my projects code there and wrote a bit about myself and hobbies I do.
+The last section of the website was for my porfolio. I display the code for some of my projects in a scrollable format and also having an
+about section to talk about myself and hobbies I enjoy doing.
 ![Porfolio](https://i.imgur.com/0PyvWRI.png)
