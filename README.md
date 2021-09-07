@@ -16,3 +16,6 @@ This is an old image I managed to find of and old version of the scapper applica
 I also had a little fun building a space game using the same gameloop as the menu screen. The goal of the game is to kill as many aliens as possible
 before you get overun. You were able to submit your score at the end.
 ![Space_Game](https://i.imgur.com/t18oRuQ.gif)
+
+The last section of the website was for my porfolio. I show some of my projects code there and wrote a bit about myself and hobbies I do.
+![Porfolio](https://i.imgur.com/0PyvWRI.png)
