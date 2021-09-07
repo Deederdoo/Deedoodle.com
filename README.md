@@ -9,3 +9,6 @@ I build a webscapper that would run on my raspberry pie 24/7 to pull information
 charts of information of price / time / amounts / etc... I would then send this data to my server and filled into a database. Anyone that would
 visit the webpage would have access to this information on a live chart.
 ![Scanner](https://i.imgur.com/dK6ym69.png)
+
+This is an old image I managed to find of and old version of the scapper application working.
+![Scanner_App](https://i.imgur.com/2pMJ225.png)
