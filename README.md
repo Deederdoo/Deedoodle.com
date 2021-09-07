@@ -18,5 +18,5 @@ before you get overrun. Players were able to submit their score at the end.
 ![Space_Game](https://i.imgur.com/t18oRuQ.gif)
 
 The last section of the website was for my porfolio. I display the code for some of my projects in a scrollable format and also having an
-about section to talk about myself and hobbies I enjoy doing.
+about section to talk about myself and hobbies I enjoy doing. You can find the code for these projects in other sections of my Github.
 ![Porfolio](https://i.imgur.com/0PyvWRI.png)
