@@ -1,0 +1,230 @@
+body{
+
+    background-color: #000000;
+    overflow: hidden;
+}
+
+.container{
+
+    position: relative;
+}
+
+.canvas #gameCanvas{
+
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 99vh;
+    background-color: #060f0e;
+}
+
+.uiContainer{
+
+    display: block;
+    z-index: 1;
+    position: absolute;
+    /* border-color: red;
+    border-style: solid; */
+    width: 100%;
+    height: 98vh;
+}
+
+/* Ui Top START -------------------------------------------------------- */
+
+.uiTopContainer{
+
+    /* border-color: rgb(0, 255, 0);
+    border-style: solid; */
+    height: 20vh;
+}
+
+.uiTopContainerScoreboard{
+
+    display: none;
+}
+
+.uiTopContainerScoreboard input{
+
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    margin: 18px auto;
+    background-color: #c2b0b0;
+    border-radius: 15px;
+    font-size: x-large;
+    opacity: 1.0;
+    height: 60px;
+    width: 200px;
+}
+
+.uiTopContainerScoreboard input:active{
+
+    background-color: rgba(218, 198, 198, 0.4)!important;
+}
+
+.uiTopContainerScoreboard input:hover{
+
+    transform: translateY(0) scale(1.05)!important;
+}
+
+/* Ui Top END -------------------------------------------------------- */
+
+/* Ui Middle 1 START -------------------------------------------------------- */
+
+.uiMidContainer1{
+
+    display: block;
+    height: 57vh;
+}
+
+.uiMidContainer1 input{
+
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    margin: 18px auto;
+    background-color: #c2b0b0;
+    border-radius: 15px;
+    font-size: x-large;
+    opacity: 1.0;
+    height: 60px;
+    width: 200px;
+}
+
+.uiMidButtonContainer1 input:active{
+
+    background-color: rgba(218, 198, 198, 0.4)!important;
+}
+
+.uiMidButtonContainer1 input:hover{
+
+    transform: translateY(0) scale(1.05)!important;
+}
+
+/* Ui Middle 1 END -------------------------------------------------------- */
+
+/* Ui Middle 2 START -------------------------------------------------------- */
+
+.uiMidContainer2{
+
+    /* border-color: rgb(255, 0, 234);
+    border-style: solid; */
+    display: none;
+    height: 57vh;
+}
+
+.uiMidInputContainer2{
+
+    /* border-color: rgb(18, 97, 67);
+    border-style: solid; */
+}
+
+.uiMidInputContainer2 p{
+
+    color: lawngreen;
+    font-size: 46px;
+    text-align: center;
+}
+
+.uiMidInputContainer2 input{
+    
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.uiMidInputContainer2 input:focus{
+    
+    background-color: #e6dfdf!important;
+    outline: none;
+}
+
+.uiMidButtonContainer{
+
+    /* border-color: rgb(255, 0, 0);
+    border-style: solid; */
+}
+
+.uiMidContainer2 input{
+
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    margin: 18px auto;
+    background-color: #c2b0b0;
+    border-radius: 15px;
+    font-size: x-large;
+    opacity: 1.0;
+    height: 60px;
+    width: 200px;
+}
+
+.uiMidButtonContainer2 input:active{
+
+    background-color: rgba(218, 198, 198, 0.4)!important;
+}
+
+.uiMidButtonContainer2 input:hover{
+
+    transform: translateY(0) scale(1.05)!important;
+}
+
+/* Ui Middle 2 END -------------------------------------------------------- */
+
+/* Ui Middle Score START --------------------------------------------------------- */
+
+.uiMidContainerScoreboard{
+
+    display: none;
+    margin: 0 auto;
+    border-style: solid;
+    border-color: rgba(230, 82, 70, 1.0);
+    background-color: rgba(0, 0, 0, 0.1);
+    border-width: 1px;
+    width: fit-content;
+    height: 50vh;
+    overflow: auto;
+}
+
+.uiMidContainerScoreboard table{
+
+    color: #e4cb42;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    margin: 30px;
+}
+
+.uiMidContainerScoreboard td, th{
+
+    padding: 10px;
+}
+
+.loader {
+    
+    display: none;
+    margin: auto;
+    border: 16px solid rgba(230, 82, 70, 1.0);
+    border-top: 16px solid #c2b0b0;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+/* Ui Middle Score END --------------------------------------------------------- */
+
+/* Ui Bottom START -------------------------------------------------------- */
+
+.uiBotContainer{
+
+    /* border-color: rgb(238, 255, 0);
+    border-style: solid; */
+    height: 20vh;
+}
+
+/* Ui Bottom END -------------------------------------------------------- */

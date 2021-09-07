@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Scanner and Graph</title>
+  <meta name="description" content="My Page Description">
+  <link rel="stylesheet" href="../css/menu.css?v=1.0">
+</head>
+<body id="bodyId">
+  <script src="../scripts/Menu/MainMenu.js"></script>
+  <script src="../scripts/Menu/Menu.js"></script>
+  <script src="../scripts/Menu/Chart1.js"></script>
+  <script src="../scripts/Menu/Chart2.js"></script>
+  <script src="../scripts/Menu/HttpConnection.js"></script>
+  <script src="../scripts/Menu/MenuGameLoop.js"></script>
+
+  <div class="translateBox" id="translateBox"></div>
+
+  <div class="titleWrapper">
+
+    <div class="titleAreaWrapper">
+
+      <div class="image">
+
+        <img src="../img/game/Dedoru_big.png">
+
+      </div>
+
+      <div class="title">
+
+        <p>Graphics Card Scanner</p>
+
+      </div>
+
+      <div class="beta">
+
+        <p>Beta</p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="chart1Title">
+
+    <p>Scanner</p>
+
+  </div>
+
+  <div class="div1Wrapper" id="div1Wrapper">
+
+    <div id="chart1WrapperID" class="chart1Wrapper">
+
+      <div class="chart1AreaWrapper">
+
+        <canvas id="chart1" height="500px" width="1200px"></canvas>
+
+      </div>
+
+    </div>
+
+    <div class="chart1ButtonBox">
+
+      <div class="chart1ButtonBoxWrapper">
+
+        <div class="bufferBarWrapper">
+
+          <div class="bufferBarAreaWrapper">
+            <div class="bufferBar"></div>
+          </div>
+
+          <div class="bufferBarLabelAreaWrapper">
+            <p id=scanningText>Scanning for 3070</p>
+          </div>
+
+      </div>
+
+        <div class="chart1ButtonBoxDropWrapper">
+
+          <label for="dropdown1">Graphics Card: </label>
+          <!-- <select name="chart1GPUtypes" id="chart1GPUtypes">
+            <option value="3070">RTX 3070</option>
+            <option value="3080">RTX 3080</option>
+          </select> -->
+          <input class="dropdown1" id="dropdown1" type="button" value="3070"/>
+          <div class="dropdownContent1">
+            <a href="#/" id="3060tiButton1">3060ti</a>
+            <a href="#/" id="3070Button1" style="display: none;">3070</a>
+            <a href="#/" id="3080Button1">3080</a>
+            <a href="#/" id="3090Button1">3090</a>
+          </div>
+
+        </div>
+
+        <div class="chart1StoreButtonBoxDropWrapper">
+
+          <label for="storeDropdown1">Store: </label>
+          <input class="storeDropdown1" id="storeDropdown1" type="button" value="NewEgg-CA"/>
+          <div class="storeDropdownContent1">
+            <a href="#/" id="newEggCAButton1" style="display: none;">NewEgg-CA</a>
+          </div>
+
+        </div>
+
+    </div>
+
+    </div>
+
+  </div>
+
+  <div class="divSplit1"></div>
+
+  <div class="chart2Title">
+
+    <p>History</p>
+
+  </div>
+
+  <div class="div2Wrapper" id="div2Wrapper">
+
+    <div id="chart2WrapperID" class="chart2Wrapper">
+
+      <div class="chart2AreaWrapper">
+        <canvas id="chart2" height="500px" width="1200px"></canvas>
+      </div>
+
+    </div>
+
+    <div class="chart2ButtonBox">
+
+      <div class="chart2ButtonBoxWrapper">
+
+        <div class="chart2ButtonBoxButtonWrapper">
+
+          <input id="1dayButton" type="button" value="Today"/>
+          <input id="1weekButton" type="button" value="1 Week"/>
+          <input id="1monthButton" type="button" value="1 Month"/>
+          <input id="6monthButton" type="button" value="6 Months"/>
+          <input id="1yearButton" type="button" value="1 Year"/>
+
+        </div>
+
+        <div class="chart2ButtonBoxDropWrapper">
+
+          <label for="dropdown2">Graphics Card: </label>
+          <!-- <select name="chart2GPUTypes" id="chart2GPUTypes">
+            <option value="3070">RTX 3070</option>
+          </select> -->
+          <input class="dropdown2" id="dropdown2" type="button" value="3070"/>
+          <div class="dropdownContent2">
+            <a href="#/" id="3060tiButton2">3060ti</a>
+            <a href="#/" id="3070Button2" style="display: none;">3070</a>
+            <a href="#/" id="3080Button2">3080</a>
+            <a href="#/" id="3090Button2">3090</a>
+          </div>
+
+        </div>
+
+        <div class="chart2StoreButtonBoxDropWrapper">
+
+          <label for="storeDropdown2">Store: </label>
+          <input class="storeDropdown2" id="storeDropdown2" type="button" value="NewEgg-CA"/>
+          <div class="storeDropdownContent2">
+            <a href="#/" id="3070Button1" style="display: none;">NewEgg-CA</a>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+</div>
+
+</body>
+
+<footer>
+
+  <div class="footerSplit"></div>
+
+  <div class="footerWrapper">
+
+    <div class="footerAreaWrapper">
+
+      <p>Dustin Horricks</p>
+
+    </div>
+
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+</footer>
+
+</html>

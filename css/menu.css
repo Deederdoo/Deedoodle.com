@@ -1,0 +1,552 @@
+/* .mainBox{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-color: rgba(230, 82, 70, 1.0);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.1);
+    width: auto;
+    height: auto;
+} */
+
+/* .chart1 #canvas1{
+
+    z-index: -1;
+    position: relative;
+    width: 99.2vw;
+    height: 98vh;
+    border: 1px solid #000000;
+    background-color: #bbbbbb;
+} */
+
+/* width */
+
+::-webkit-scrollbar {
+
+    width: 13px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+
+    border-style: solid;
+    border-color: #666262;
+    border-width: 1px;
+    background: #313131;
+    border-radius: 18px;
+}
+  
+ /* Handle */
+::-webkit-scrollbar-thumb {
+
+    background: #a0a3a0;
+    border-radius: 28px;
+    border-color: #363636;
+    border-style: solid;
+    border-width: 1px;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+
+    background: rgb(75, 73, 73);
+    border-style: solid;
+    border-color: rgb(196, 195, 195);
+    border-width: 1px;
+}
+
+.translateBox{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 1.0);
+    width: 100%;
+    height: 100%;
+}
+
+.image img{
+
+    width:20%;
+    height: 20%;
+}
+
+.title p{
+
+    float: left;
+    color:#a0a3a0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    margin: 5px;
+}
+
+.beta p{
+
+    color:#ff2424;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    margin: 5px;
+}
+
+.titleWrapper{
+
+    /* border-style: solid;
+    border-color: red; */
+    margin-top: 80px;
+    margin-bottom: 80px;
+    height: auto;
+}
+
+.titleAreaWrapper{
+
+    /* border-style: solid; */
+    margin: auto;
+    width: 50%;
+    height: auto;
+}
+
+select option {
+    margin: 40px;
+    background: rgba(0, 0, 0, 0.3);
+    color: rgb(133, 133, 133);
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+#bodyId{
+
+    background-color: #1b1d1d;
+}
+
+.chart1Title{
+
+    /* border-style: solid;
+    border-color: red; */
+    margin: auto;
+    width: 50%;
+    height: auto;
+}
+
+.chart1Title p{
+
+    color:#a0a3a0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    margin: 5px;
+}
+
+#chart1{
+
+    background-image: linear-gradient(#50534f, #313131);
+}
+
+.div1Wrapper{
+
+    z-index: -1;
+    position: relative;
+    width: 50%;
+    margin: auto;
+    border-style: solid;
+    border-color: rgba(230, 84, 71, 0.502);
+    border-width: 0.1px;
+    padding: 6px;
+}
+
+.chart1Wrapper{
+
+    overflow: auto;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.3);
+}
+
+.chart1AreaWrapper{
+
+    position: relative;
+    border-bottom: solid;
+}
+
+.bufferBarWrapper{
+
+    display: inline-block;
+}
+
+.bufferBarLabelAreaWrapper{
+
+    float: right;
+}
+
+.bufferBarLabelAreaWrapper p{
+
+    margin-top: 18px;
+    margin-bottom: 18px;
+    color: rgba(255, 52, 52, 1.0);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+.bufferBarAreaWrapper{
+
+    display: inline-block;
+}
+
+.bufferBar{
+
+    border: 6px solid #313131;
+    border-top: 6px solid rgba(255, 52, 52, 1.0);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 6s linear infinite;
+    margin: 5px;
+}
+
+@keyframes spin {
+    
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* .chart1ButtonBox{
+
+    margin: 2px;
+} */
+
+.chart1ButtonBoxWrapper{
+
+    overflow: hidden;
+    margin: 2px;
+}
+
+/*----------------------------------------------------start of dropdown 1*/
+
+.chart1ButtonBoxDropWrapper{
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    float: right;
+}
+
+.dropdown1{
+
+    background-color: #313131;
+    color: #a0a3a0;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: none;
+}
+
+.dropdownContent1{
+
+    display: none;
+    position: absolute;
+    bottom: 50px;
+    background-color: #a0a3a0;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdownContent1 a{
+
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dropdownContent1 a:hover {background-color: #ddd;}
+
+.chart1ButtonBoxDropWrapper:hover .dropdownContent1 {display: block;}
+
+.chart1ButtonBoxDropWrapper:hover .dropdown1 {background-color: #525252;}
+
+/*----------------------------------------------------End of dropdown 1*/
+
+/*----------------------------------------------------Start of dropdown 1 STORE*/
+
+.chart1StoreButtonBoxDropWrapper{
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    float: right;
+}
+
+.storeDropdown1{
+
+    background-color: #313131;
+    color: #a0a3a0;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: none;
+}
+
+.storeDropdownContent1{
+
+    display: none;
+    position: absolute;
+    bottom: 50px;
+    background-color: #a0a3a0;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.storeDropdownContent1 a{
+
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*----------------------------------------------------End of dropdown 1 STORE*/
+
+/*----------------------------------------------------start of dropdown 2*/
+
+.chart2ButtonBoxDropWrapper label{
+
+    color: #a0a3a0;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+.chart2ButtonBoxDropWrapper{
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    float: right;
+}
+
+.dropdown2{
+
+    background-color: #313131;
+    color: #a0a3a0;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: none;
+}
+
+.dropdownContent2{
+
+    display: none;
+    position: absolute;
+    bottom: 50px;
+    background-color: #a0a3a0;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdownContent2 a{
+
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dropdownContent2 a:hover {background-color: #ddd;}
+
+.chart2ButtonBoxDropWrapper:hover .dropdownContent2 {display: block;}
+
+.chart2ButtonBoxDropWrapper:hover .dropdown2 {background-color: #525252;}
+
+/*----------------------------------------------------End of dropdown 2*/
+
+/*----------------------------------------------------Start of dropdown 2 STORE*/
+
+.chart2StoreButtonBoxDropWrapper label{
+
+    color: #a0a3a0;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+.chart2StoreButtonBoxDropWrapper{
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    float: right;
+}
+
+.storeDropdown2{
+
+    background-color: #313131;
+    color: #a0a3a0;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: none;
+}
+
+.storeDropdownContent2{
+
+    display: none;
+    position: absolute;
+    bottom: 50px;
+    background-color: #a0a3a0;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.storeDropdownContent2 a{
+
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*----------------------------------------------------End of dropdown 2 STORE*/
+
+.chart1ButtonBoxWrapper label{
+
+    color: #a0a3a0;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+/* ---------------------------------------div 1*/
+
+.divSplit1{
+
+    border-color: rgba(44, 46, 45, 0.5);
+    border-style: solid;
+    border-width: 1px;
+    margin: 25px;
+}
+
+/* ---------------------------------------div 2 */
+
+/* .chart2ButtonBox{
+
+    border-style: solid;
+    border-color: red;
+} */
+
+.chart2Title{
+
+    /* border-style: solid;
+    border-color: red; */
+    margin: auto;
+    width: 50%;
+    height: auto;
+}
+
+.chart2Title p{
+
+    color:#a0a3a0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    margin: 5px;
+}
+
+#chart2{
+
+    background-image: linear-gradient(#50534f, #313131);
+}
+
+.chart2ButtonBoxWrapper{
+
+    overflow: hidden;
+    margin: 2px;
+}
+
+.chart2ButtonBoxButtonWrapper input{
+
+    color: #a0a3a0;
+    background-color: rgb(44, 46, 45);
+    border-color: rgba(244, 165, 96, 0.3);
+    border-width: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 6px;
+    width: 100px;
+    height: 30px;
+}
+
+.chart2ButtonBoxButtonWrapper input:hover{
+
+    color: rgb(231, 231, 231);
+    background-color: rgb(59, 59, 59);
+    border-color: rgb(231, 201, 174);
+}
+
+.chart2ButtonBoxButtonWrapper input:active{
+
+    color: rgba(0, 0, 0, 0.5);
+    background-color: rgb(141, 141, 141);
+    border-color: rgb(231, 201, 174);
+}
+
+.chart2ButtonBoxButtonWrapper input:focus{
+
+    outline: 0;
+}
+
+.chart2ButtonBoxButtonWrapper{
+
+    float: left;
+}
+
+.div2Wrapper{
+
+    z-index: -1;
+    position: relative;
+    width: 50%;
+    margin: auto;
+    border-style: solid;
+    border-color: rgba(230, 82, 70, 0.5);
+    border-width: 1px;
+    padding: 6px;
+}
+
+.chart2Wrapper{
+
+    overflow: auto;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.3);
+}
+
+.chart2AreaWrapper{
+
+    position: relative;
+    border-bottom: solid;
+}
+
+.footerSplit{
+
+    border-color: rgba(44, 46, 45, 0.5);
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 50px;
+}
+
+.footerWrapper p{
+
+    color:#a0a3a0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 15px;
+    text-align: right;
+}

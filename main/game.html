@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Game</title>
+  <meta name="Space Game" content="My Page Description">
+  <link rel="stylesheet" href="../css/game.css?v=1.0">
+</head>
+<body id="bodyId" style="height: 98vh;">
+  <script src="../scripts/Game/MainGame.js"></script>
+  <script src="../scripts/Game/GameGameLoop.js"></script>
+  <script src="../scripts/Game/Canvas.js"></script>
+  <script src="../scripts/Game/Player.js"></script>
+  <script src="../scripts/Game/Projectile.js"></script>
+  <script src="../scripts/Game/Hitbox.js"></script>
+  <script src="../scripts/Game/AI.js"></script>
+  <script src="../scripts/Game/Alien.js"></script>
+  <script src="../scripts/Game/Portal.js"></script>
+  <script src="../scripts/Game/Health.js"></script>
+  <script src="../scripts/Game/Animation.js"></script>
+  <script src="../scripts/Game/ImageObj.js"></script>
+  <script src="../scripts/Game/Score.js"></script>
+  <script src="../scripts/Menu/HttpConnection.js"></script>
+  <script src="../plugins/victor.js"></script>
+
+  <div class="container">
+
+    <div class="canvas">
+
+        <canvas id="gameCanvas">
+
+          <img id="playerShip" />
+          <img id="healthHeart" />
+          <img id="projImg1" />
+          <img id="alienPortal" />
+          <img id="alienType1" >
+          <img id="alienType2" >
+
+        </canvas>
+
+    </div>
+
+    <div class="uiContainer" id="uiContainer">
+
+      <div class="uiTopContainer">
+
+        <!-- Top Score Start -->
+
+        <div id="uiTopContainerScoreboard" class="uiTopContainerScoreboard">
+
+          <input id="scoreMenuButton" type="button" value="Menu"/>
+
+        </div>
+
+        <!-- Top Score End -->
+
+      </div>
+
+      <!-- Mid 1 Start -->
+
+      <div id="uiMidContainer1" class="uiMidContainer1">
+
+        <div class="uiMidButtonContainer1">
+
+          <input id="playButton" type="button" value="Play"/>
+          <input id="scoresButton" type="button" value="Scores"/>
+          <input id="tutorialButton" type="button" value="Tutorial"/>
+
+        </div>
+
+      </div>
+
+      <!-- Mid 1 End -->
+
+      <!-- Mid 2 Start -->
+
+      <div id="uiMidContainer2" class="uiMidContainer2">
+
+        <div class="uiMidInputContainer2">
+
+          <p id="finalScore">Score</p>
+          <input id="insertScore" type="input" placeholder="Username" maxlength="16"/>
+
+        </div>
+
+        <div class="uiMidButtonContainer2">
+
+          <input id="submitButton" type="button" value="Submit"/>
+          <input id="resetButton" type="button" value="Restart"/>
+          <input id="menuButton" type="button" value="Menu"/>
+
+        </div>
+
+      </div>
+
+      <!-- Mid 2 End -->
+
+      <!-- Mid Scoreboard Start -->
+
+      <div id="loader" class="loader"></div>
+
+      <div id="uiMidContainerScoreboard" class="uiMidContainerScoreboard">
+
+        <table id="scoreTable"></table>
+
+      </div>
+
+      <!-- Mid Scoreboard End -->
+
+      <div class="uiBotContainer">
+        
+
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+</html>

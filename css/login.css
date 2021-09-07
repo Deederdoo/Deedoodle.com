@@ -1,0 +1,135 @@
+body{
+
+    background-color: #000000;
+    overflow: hidden;
+}
+
+.canvas #backCanvas{
+
+    z-index: -1;
+    position: relative;
+    width: 100%;
+    height: 99vh;
+    background-color: #060f0e;
+}
+
+.mainBox{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-color: rgba(230, 82, 70, 1.0);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.1);
+    width: auto;
+    height: auto;
+}
+
+.buttonBox{
+
+    position: relative;
+    margin: 0 auto;
+    padding: 40px;
+    /**border-style: solid;**/
+    border-color: skyblue;
+    width: auto;
+    height: auto;
+}
+
+.buttonBox input{
+
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    margin: 18px auto;
+    background-color: #c2b0b0;
+    border-radius: 15px;
+    font-size: x-large;
+    opacity: 1.0;
+    height: 60px;
+    width: 200px;
+}
+
+.buttonBox input:hover{
+	
+    
+    transform: translateY(0) scale(1.05)!important;
+    /**background-color: rgba(218, 198, 198, 0.8)!important;**/
+	/**border-color: rgba(255, 0, 0, 1);**/
+}
+
+.buttonBox input:active{
+	
+    background-color: rgba(218, 198, 198, 0.4)!important;
+    /**border-color: rgba(255, 0, 0, 0.5);**/
+}
+
+.buttonBox :focus {
+    
+    outline: 0!important;
+}
+
+.buttonBox #labelUsername{
+
+    display: none;
+    color: rgb(255, 188, 182);
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    opacity: 0.0;
+}
+
+.buttonBox #username{
+
+    display: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    margin: 18px auto;
+    background-color: #c2b0b0;
+    border-radius: 15px;
+    font-size: x-large;
+    opacity: 0.0;
+    height: 50px;
+    width: 80%;
+}
+
+.buttonBox #labelPassword{
+
+    display: none;
+    color: rgb(255, 188, 182);
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    opacity: 0.0;
+}
+
+.buttonBox #password{
+
+    display: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    margin: 18px auto;
+    background-color: #c2b0b0;
+    border-radius: 15px;
+    font-size: x-large;
+    opacity: 0.0;
+    height: 50px;
+    width: 80%;
+}
+
+.buttonBox #cancelButton{
+
+    display: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    margin: 20px auto;
+    background-color: #c2b0b0;
+    border-radius: 15px;
+    font-size: x-large;
+    opacity: 0.0;
+    height: 60px;
+    width: 200px;
+}
