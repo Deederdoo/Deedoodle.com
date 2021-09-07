@@ -12,3 +12,7 @@ visit the webpage would have access to this information on a live chart.
 
 This is an old image I managed to find of and old version of the scapper application working.
 ![Scanner_App](https://i.imgur.com/2pMJ225.png)
+
+I also had a little fun building a space game using the same gameloop as the menu screen. The goal of the game is to kill as many aliens as possible
+before you get overun. You were able to submit your score at the end.
+![Space_Game](https://i.imgur.com/t18oRuQ.gif)
